@@ -1,0 +1,83 @@
+/* --- Ajustes de la pagina de regerencias --- */
+
+
+table {
+  font-size: 1.7rem;
+  font-family: 'Roboto Slab', serif;
+  background-color: rgba(123, 124, 125, 0.5);
+}
+
+h1 {
+  background-color: white;
+  border-radius: 20px 0px;
+  box-shadow: rgba(123, 124, 125, 0.5);
+  font-family: 'Roboto Slab', serif;
+  padding: 12px 14px;
+  font-size: 2.1 rem;
+}
+
+.elemento {
+  border: 2px solid black;
+  padding: 0;
+  margin: 0;
+
+}
+
+.elemento a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+
+/* Utilizamos celdas vacias para mantener la forma de la tabla */
+
+.celda_vacia {
+  padding: 12px;
+}
+
+/*- Interacciones -*/
+
+.elemento a:hover {
+  background-color: #031FA2;
+  color: white;
+}
+
+/* Ids para darle los diferentes colores a los grupos elementos */
+
+#no_metales {
+  background-color: #DBC2F0;
+}
+
+#met_alcalinos {
+  background-color: #D69363;
+}
+
+#met_alc_terreos {
+  background-color: #A3874E;
+}
+
+#nobles {
+  background-color: #94CBF2;
+}
+
+#halogenos {
+  background-color: lightpink;
+}
+
+#metaloides {
+  background-color: #9DC462;
+}
+
+#metales_p {
+  background-color: #BA8B50;
+}
+
+#metales_d {
+  background-color: #9E9E59;
+}
+
+#lantanidos,#actinidos {
+  background-color: #68A688;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curso de Ciencias Naturales</title>
+  <link href="normalize.css" rel="stylesheet" type="text/css" />
+  <link href="home.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="forms.css" />
+</head>
+
+<body>
+  <header>
+    <!-- SoloCiencia logo -->
+    <section class="SoloCienciaLogo">
+      <img src="logos/SoloCiencia_logo.png" alt="Logo" />
+    </section>
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+      <div class="links">
+        <a href="HOME.html">Home</a>
+        <a href="REG_CIENCIAS_NATURALES.html" class="highlight">Ciencias Naturales</a>
+        <a href="REG_QUIMICA_BIOLOGIA.html">Química & Biología</a>
+        <a href="REG_CURSO_PROGRAMACION.html">Programación</a>
+        <a href="REFERENCIAS.html">Referencias</a>
+        <a href="CONTACTANOS.html">Contáctanos</a>
+      </div>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Buscar..." />
+        <a href="https://www.google.com/" target="_blank">
+          <button class="search-button">Google it!</button></a>
+      </div>
+      <!-- Logos de Redes Sociales -->
+      <section class="logos">
+        <div class="logo">
+          <a href="https://www.instagram.com/solocienciaya/" target="_blank"><img src="logos/instagram_logo.png"
+              alt="Logo 2" /></a>
+        </div>
+        <div class="logo">
+          <a href="https://www.facebook.com/profile.php?id=100094191861143" target="_blank"><img
+              src="logos/facebook_logo.png" alt="Logo 3" /></a>
+        </div>
+      </section>
+    </nav>
+  </header>
+  <!-- Main Forms -->
+  <main>
+    <form action="Curso_c_naturales_process.jsp" method="post">
+      <h2>Registro al curso de Ciencias Naturales</h2>
+      <br />
+      <div class="form-group">
+        <label for="nombre">Nombre del Participante:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Nombre apellido" />
+      </div>
+      <div class="form-group">
+        <label for="cedula">Cédula</label>
+        <input type="text" id="cedula" name="cedula" required placeholder="0-0000-0000" />
+      </div>
+      <div class="form-radio">
+        <label for="fecha_inicio">Fecha de Inicio:</label><br />
+        <input type="radio" id="20julio" name="fecha_inicio" value="2023/7/20" required />
+        <label for="20julio">20 de Julio</label><br />
+        <input type="radio" id="24octubre" name="fecha_inicio" value="2023/10/24" required />
+        <label for="24octubre">24 de Octubre</label><br />
+        <input type="radio" id="14noviembre" name="fecha_inicio" value="2023/11/14" required />
+        <label for="14noviembre">14 de Noviembre</label>
+      </div>
+      <input type="submit" value="Enviar" />
+    </form>
+  </main>
+  <!-- Menu Footer -->
+  <footer>
+    <nav class="navbar">
+      <div class="links">
+        <a href="HOME.html">
+          <img src="logos/SoloCiencia_logo.png" />
+        </a>
+        <a href="REG_CIENCIAS_NATURALES.html">Ciencias Naturales</a>
+        <a href="REG_QUIMICA_BIOLOGIA.html">Química & Biología</a>
+        <a href="REG_CURSO_PROGRAMACION.html">Programación</a>
+        <a href="REFERENCIAS.html">Referencias</a>
+        <a href="CONTACTANOS.html">Contáctanos</a>
+        <a href="LOGIN_USUARIO.html">Log Out</a>
+      </div>
+      <!-- Logos de Redes Sociales -->
+      <section class="logos">
+        <p>Copyright (c) 2023 Solo Ciencia</p>
+
+        <p>All Rights Reserved</p>
+      </section>
+    </nav>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Solociencia Login</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link href="home.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="forms.css" />
+  <style>
+    body {
+      background-image: none;
+      background-color: #f6f6f6;
+    }
+
+    .SoloCienciaLogo img {
+      border-bottom: 0.7rem double RGB(66, 66, 66);
+    }
+  </style>
+</head>
+
+<body>
+  <section class="SoloCienciaLogo">
+    <img src="logos/SoloCiencia_logo.png" alt="Logo" />
+  </section>
+
+  <main>
+    <form action="Login_process.jsp" method="post">
+      <div class="form-group">
+        <h2>Iniciar Sesión</h2>
+      </div>
+      <div class="form-group">
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="username" name="username" required />
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <input type="submit" value="Iniciar sesión" />
+    </form>
+    <br />
+    <section class="logos">
+      <div class="logo">
+        <a href="https://www.instagram.com/solocienciaya/" target="_blank"><img src="logos/instagram_logo.png"
+            alt="Logo 2" /></a>
+      </div>
+      <div class="logo">
+        <a href="https://www.facebook.com/profile.php?id=100094191861143" target="_blank"><img
+            src="logos/facebook_logo.png" alt="Logo 3" /></a>
+      </div>
+    </section>
+    <br />
+    <a href="REGISTRO_USUARIO.html">¿No tienes cuenta?</a>
+  </main>
+</body>
+</html>
